@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Heavy</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Reveal View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -35,13 +40,50 @@
                     <view key="view" contentMode="scaleToFill" id="GAH-V3-XwZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdm-tS-OFY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3u9-pA-EoT">
+                                        <rect key="frame" x="18" y="45" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Q6h-Mr-fS1"/>
+                                            <constraint firstAttribute="width" constant="20" id="adh-mA-vrr"/>
+                                        </constraints>
+                                        <state key="normal" image="smackBurger"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BuddyBuddy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIt-ja-vyh">
+                                        <rect key="frame" x="136" y="43.5" width="102.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.39945419520547948" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="0DA-Fk-adP"/>
+                                    <constraint firstAttribute="bottom" secondItem="3u9-pA-EoT" secondAttribute="bottom" constant="15" id="0gc-00-Mkq"/>
+                                    <constraint firstItem="3u9-pA-EoT" firstAttribute="leading" secondItem="gdm-tS-OFY" secondAttribute="leading" constant="18" id="ENY-8Q-y8M"/>
+                                    <constraint firstItem="wIt-ja-vyh" firstAttribute="centerX" secondItem="gdm-tS-OFY" secondAttribute="centerX" id="ct6-pT-lUX"/>
+                                    <constraint firstItem="wIt-ja-vyh" firstAttribute="centerY" secondItem="3u9-pA-EoT" secondAttribute="centerY" id="xGU-vU-mcM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gdm-tS-OFY" firstAttribute="trailing" secondItem="PgK-db-ctf" secondAttribute="trailing" id="mt2-EE-te7"/>
+                            <constraint firstItem="gdm-tS-OFY" firstAttribute="leading" secondItem="PgK-db-ctf" secondAttribute="leading" id="qaX-Py-y53"/>
+                            <constraint firstItem="gdm-tS-OFY" firstAttribute="top" secondItem="GAH-V3-XwZ" secondAttribute="top" id="zTp-tB-rI4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PgK-db-ctf"/>
                     </view>
+                    <connections>
+                        <outlet property="menuBtn" destination="3u9-pA-EoT" id="cAm-lP-eYc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FcM-cq-PWI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988" y="436"/>
+            <point key="canvasLocation" x="1389.5999999999999" y="425.93703148425789"/>
         </scene>
         <!--ChannelVC-->
         <scene sceneID="8Bk-uF-vlb">
@@ -56,7 +98,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4wF-rM-jgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988" y="-238"/>
+            <point key="canvasLocation" x="1562" y="-276"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="smackBurger" width="40" height="40"/>
+    </resources>
 </document>

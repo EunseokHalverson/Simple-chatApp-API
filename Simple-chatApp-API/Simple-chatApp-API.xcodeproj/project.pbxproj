@@ -144,6 +144,7 @@
 		65A3A1941FD92027007FD3AD = {
 			isa = PBXGroup;
 			children = (
+				65A3A1CE1FD92236007FD3AD /* Supporting Files */,
 				65A3A19F1FD92027007FD3AD /* Simple-chatApp-API */,
 				65A3A1B41FD92027007FD3AD /* Simple-chatApp-APITests */,
 				65A3A1BF1FD92027007FD3AD /* Simple-chatApp-APIUITests */,
@@ -169,7 +170,6 @@
 				65235ED11FDBFB1200C17A1A /* Model */,
 				65235ED01FDBFB0D00C17A1A /* View */,
 				65235ECF1FDBFB0700C17A1A /* Controller */,
-				65A3A1CE1FD92236007FD3AD /* Supporting Files */,
 				65A3A1A01FD92027007FD3AD /* AppDelegate.swift */,
 				65A3A1A41FD92027007FD3AD /* Main.storyboard */,
 				65A3A1A71FD92027007FD3AD /* Assets.xcassets */,
