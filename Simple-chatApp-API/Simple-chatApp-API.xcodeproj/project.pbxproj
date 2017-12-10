@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DC656364ECA09A3DACD0387 /* Pods_Simple_chatApp_APITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDFA07123B64A53CF78F236 /* Pods_Simple_chatApp_APITests.framework */; };
 		651073BA1FDD4022004C8566 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651073B91FDD4022004C8566 /* CreateAccountVC.swift */; };
+		651073BD1FDDB37D004C8566 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651073BC1FDDB37D004C8566 /* AuthService.swift */; };
 		65235ED31FDBFB2900C17A1A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED21FDBFB2900C17A1A /* ChatVC.swift */; };
 		65235ED51FDBFB3700C17A1A /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED41FDBFB3700C17A1A /* ChannelVC.swift */; };
 		65235ED71FDD236000C17A1A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED61FDD236000C17A1A /* GradientView.swift */; };
@@ -46,6 +47,7 @@
 		0CDFA07123B64A53CF78F236 /* Pods_Simple_chatApp_APITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_chatApp_APITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCB407FF1E0C8B0C3B207E6 /* Pods_Simple_chatApp_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_chatApp_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		651073B91FDD4022004C8566 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		651073BC1FDDB37D004C8566 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		65235ED21FDBFB2900C17A1A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		65235ED41FDBFB3700C17A1A /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		65235ED61FDD236000C17A1A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		651073BB1FDDB367004C8566 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				651073BC1FDDB37D004C8566 /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		65235ECF1FDBFB0700C17A1A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +196,7 @@
 		65A3A19F1FD92027007FD3AD /* Simple-chatApp-API */ = {
 			isa = PBXGroup;
 			children = (
+				651073BB1FDDB367004C8566 /* Service */,
 				65235ED81FDD328000C17A1A /* Utility */,
 				65235ED11FDBFB1200C17A1A /* Model */,
 				65235ED01FDBFB0D00C17A1A /* View */,
@@ -512,6 +523,7 @@
 				65235ED31FDBFB2900C17A1A /* ChatVC.swift in Sources */,
 				65A3A1A11FD92027007FD3AD /* AppDelegate.swift in Sources */,
 				651073BA1FDD4022004C8566 /* CreateAccountVC.swift in Sources */,
+				651073BD1FDDB37D004C8566 /* AuthService.swift in Sources */,
 				65235EE01FDD351F00C17A1A /* LoginVC.swift in Sources */,
 				65235ED71FDD236000C17A1A /* GradientView.swift in Sources */,
 				65A3A1D21FD9224C007FD3AD /* SWRevealViewController.m in Sources */,

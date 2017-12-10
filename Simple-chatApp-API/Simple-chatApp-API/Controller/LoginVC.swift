@@ -10,9 +10,7 @@ import UIKit
 
 class LoginVC: UIViewController {
 
-    @IBAction func createAccountBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
-    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,5 +21,8 @@ class LoginVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func createAccountBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
+    }
 
 }
