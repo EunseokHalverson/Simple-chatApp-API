@@ -10,6 +10,9 @@
 		1DC656364ECA09A3DACD0387 /* Pods_Simple_chatApp_APITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDFA07123B64A53CF78F236 /* Pods_Simple_chatApp_APITests.framework */; };
 		65235ED31FDBFB2900C17A1A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED21FDBFB2900C17A1A /* ChatVC.swift */; };
 		65235ED51FDBFB3700C17A1A /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED41FDBFB3700C17A1A /* ChannelVC.swift */; };
+		65235ED71FDD236000C17A1A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED61FDD236000C17A1A /* GradientView.swift */; };
+		65235EDC1FDD32C200C17A1A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235EDB1FDD32C200C17A1A /* Constant.swift */; };
+		65235EE01FDD351F00C17A1A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235EDF1FDD351F00C17A1A /* LoginVC.swift */; };
 		65A3A1A11FD92027007FD3AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3A1A01FD92027007FD3AD /* AppDelegate.swift */; };
 		65A3A1A61FD92027007FD3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A3A1A41FD92027007FD3AD /* Main.storyboard */; };
 		65A3A1A81FD92027007FD3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A3A1A71FD92027007FD3AD /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 		1CCB407FF1E0C8B0C3B207E6 /* Pods_Simple_chatApp_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_chatApp_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65235ED21FDBFB2900C17A1A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		65235ED41FDBFB3700C17A1A /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		65235ED61FDD236000C17A1A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		65235EDB1FDD32C200C17A1A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		65235EDF1FDD351F00C17A1A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		65A3A19D1FD92027007FD3AD /* Simple-chatApp-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple-chatApp-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A3A1A01FD92027007FD3AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65A3A1A51FD92027007FD3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 			children = (
 				65235ED21FDBFB2900C17A1A /* ChatVC.swift */,
 				65235ED41FDBFB3700C17A1A /* ChannelVC.swift */,
+				65235EDF1FDD351F00C17A1A /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +137,7 @@
 		65235ED01FDBFB0D00C17A1A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				65235ED61FDD236000C17A1A /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,6 +147,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		65235ED81FDD328000C17A1A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				65235EDB1FDD32C200C17A1A /* Constant.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		65A3A1941FD92027007FD3AD = {
@@ -167,6 +183,7 @@
 		65A3A19F1FD92027007FD3AD /* Simple-chatApp-API */ = {
 			isa = PBXGroup;
 			children = (
+				65235ED81FDD328000C17A1A /* Utility */,
 				65235ED11FDBFB1200C17A1A /* Model */,
 				65235ED01FDBFB0D00C17A1A /* View */,
 				65235ECF1FDBFB0700C17A1A /* Controller */,
@@ -491,8 +508,11 @@
 			files = (
 				65235ED31FDBFB2900C17A1A /* ChatVC.swift in Sources */,
 				65A3A1A11FD92027007FD3AD /* AppDelegate.swift in Sources */,
+				65235EE01FDD351F00C17A1A /* LoginVC.swift in Sources */,
+				65235ED71FDD236000C17A1A /* GradientView.swift in Sources */,
 				65A3A1D21FD9224C007FD3AD /* SWRevealViewController.m in Sources */,
 				65235ED51FDBFB3700C17A1A /* ChannelVC.swift in Sources */,
+				65235EDC1FDD32C200C17A1A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
