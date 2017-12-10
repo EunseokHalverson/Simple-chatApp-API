@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  CreateAccountVC.swift
 //  Simple-chatApp-API
 //
 //  Created by Eunseok on 2017. 12. 10..
@@ -8,11 +8,8 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class CreateAccountVC: UIViewController {
 
-    @IBAction func createAccountBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,8 +17,7 @@ class LoginVC: UIViewController {
     }
 
     @IBAction func closeBtnPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        performSegue(withIdentifier: UNWIND_CHANNEL, sender: nil)
     }
     
-
 }
