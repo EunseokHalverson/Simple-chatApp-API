@@ -218,7 +218,7 @@
                                     <action selector="closeBtnPressed:" destination="3na-IJ-gYP" eventType="touchUpInside" id="uAo-3F-etU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4V-y6-Egu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4V-y6-Egu" customClass="RoundedButton" customModule="Simple_chatApp_API" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="261" width="250" height="30"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333334329999997" blue="0.33333334329999997" alpha="0.44854987159999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -355,7 +355,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FvI-wg-nXi">
                                         <rect key="frame" x="0.0" y="84" width="250" height="2"/>
@@ -399,45 +399,65 @@
                                     <action selector="closeBtnPressed:" destination="KTY-k2-njr" eventType="touchUpInside" id="ppD-Hh-taR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAR-1k-oDh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAR-1k-oDh" customClass="RoundedButton" customModule="Simple_chatApp_API" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="617" width="250" height="30"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333334329999997" blue="0.33333334329999997" alpha="0.44854987159999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="3q5-hy-Fq9"/>
                                     <constraint firstAttribute="height" constant="30" id="eau-c0-xys"/>
                                 </constraints>
-                                <state key="normal" title="Login">
+                                <state key="normal" title="Create Account">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="KTY-k2-njr" eventType="touchUpInside" id="Ie9-qK-9CY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56r-ss-wCE">
+                                <rect key="frame" x="120" y="359" width="134" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="f7Y-H3-Rol"/>
+                                    <constraint firstAttribute="width" constant="134" id="yUI-0x-kgf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                <state key="normal" title="Choose Avatar">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseAvatarPressed:" destination="KTY-k2-njr" eventType="touchUpInside" id="qvT-sn-igL"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smackProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FEL-lD-KPp">
-                                <rect key="frame" x="137.5" y="359.5" width="100" height="100"/>
+                                <rect key="frame" x="137" y="359" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="RQw-kG-LIh"/>
                                     <constraint firstAttribute="width" constant="100" id="hm1-RD-XeQ"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4im-Sf-qZy">
-                                <rect key="frame" x="137" y="447" width="100" height="26"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <state key="normal" title="Choose Avatar">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7b-th-e4J">
+                                <rect key="frame" x="120" y="490" width="134" height="29"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                <state key="normal" title="Select Background Color">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="selectBGColorPressed:" destination="KTY-k2-njr" eventType="touchUpInside" id="w8n-uc-dmj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="FEL-lD-KPp" firstAttribute="top" secondItem="Zv5-f3-a5g" secondAttribute="bottom" constant="80" id="0kM-tE-CV0"/>
+                            <constraint firstItem="W7b-th-e4J" firstAttribute="centerX" secondItem="uxf-HS-Cpj" secondAttribute="centerX" id="1fy-7U-5xT"/>
                             <constraint firstItem="fD8-Zz-e3H" firstAttribute="top" secondItem="ZNZ-Af-pWV" secondAttribute="top" id="2yF-n1-DYh"/>
-                            <constraint firstItem="4im-Sf-qZy" firstAttribute="centerX" secondItem="uxf-HS-Cpj" secondAttribute="centerX" id="FOq-f9-eX7"/>
                             <constraint firstItem="ZNZ-Af-pWV" firstAttribute="trailing" secondItem="fD8-Zz-e3H" secondAttribute="trailing" constant="16" id="HYp-td-6Fs"/>
                             <constraint firstItem="8bR-RM-0VY" firstAttribute="top" secondItem="ZNZ-Af-pWV" secondAttribute="top" constant="60" id="Iku-Pq-6pg"/>
                             <constraint firstItem="Zv5-f3-a5g" firstAttribute="top" secondItem="8bR-RM-0VY" secondAttribute="bottom" constant="40" id="QgL-K6-DDw"/>
                             <constraint firstItem="Zv5-f3-a5g" firstAttribute="centerX" secondItem="uxf-HS-Cpj" secondAttribute="centerX" id="cxE-r7-uWz"/>
-                            <constraint firstItem="4im-Sf-qZy" firstAttribute="top" secondItem="FEL-lD-KPp" secondAttribute="top" id="ftE-Hq-3ks"/>
                             <constraint firstItem="ZNZ-Af-pWV" firstAttribute="bottom" secondItem="uAR-1k-oDh" secondAttribute="bottom" constant="20" id="fxc-CS-1Ks"/>
-                            <constraint firstItem="4im-Sf-qZy" firstAttribute="width" secondItem="FEL-lD-KPp" secondAttribute="width" id="hrn-En-bmK"/>
+                            <constraint firstItem="56r-ss-wCE" firstAttribute="centerX" secondItem="uxf-HS-Cpj" secondAttribute="centerX" id="guS-DP-HFZ"/>
+                            <constraint firstItem="56r-ss-wCE" firstAttribute="top" secondItem="FEL-lD-KPp" secondAttribute="top" id="iKM-jQ-FWk"/>
+                            <constraint firstItem="W7b-th-e4J" firstAttribute="top" secondItem="56r-ss-wCE" secondAttribute="bottom" constant="5" id="lnq-J6-JRZ"/>
                             <constraint firstItem="uAR-1k-oDh" firstAttribute="centerX" secondItem="uxf-HS-Cpj" secondAttribute="centerX" id="qaA-uz-UfZ"/>
                             <constraint firstItem="FEL-lD-KPp" firstAttribute="centerX" secondItem="uxf-HS-Cpj" secondAttribute="centerX" id="seQ-0c-mGe"/>
                             <constraint firstItem="8bR-RM-0VY" firstAttribute="centerX" secondItem="uxf-HS-Cpj" secondAttribute="centerX" id="uGz-rI-x8S"/>
@@ -445,6 +465,10 @@
                         <viewLayoutGuide key="safeArea" id="ZNZ-Af-pWV"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="wXk-M9-osI" id="9oh-iW-zaw"/>
+                        <outlet property="passTxt" destination="tYg-wh-oQX" id="Vjl-qg-du3"/>
+                        <outlet property="userImg" destination="FEL-lD-KPp" id="Q52-nW-hfN"/>
+                        <outlet property="usernameTxt" destination="qAc-RO-vrL" id="5GY-bB-80v"/>
                         <segue destination="MgH-xO-kcP" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="4iY-Bz-n9V"/>
                     </connections>
                 </viewController>

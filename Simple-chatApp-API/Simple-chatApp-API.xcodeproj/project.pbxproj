@@ -22,6 +22,7 @@
 		65A3A1B61FD92027007FD3AD /* Simple_chatApp_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3A1B51FD92027007FD3AD /* Simple_chatApp_APITests.swift */; };
 		65A3A1C11FD92027007FD3AD /* Simple_chatApp_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3A1C01FD92027007FD3AD /* Simple_chatApp_APIUITests.swift */; };
 		65A3A1D21FD9224C007FD3AD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3A1D01FD9224B007FD3AD /* SWRevealViewController.m */; };
+		65B9190C1FDDC6E1001288C8 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9190B1FDDC6E1001288C8 /* RoundedButton.swift */; };
 		7F04F99F726FE8CB296A778E /* Pods_Simple_chatApp_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCB407FF1E0C8B0C3B207E6 /* Pods_Simple_chatApp_API.framework */; };
 		B4604A5061038856DB3B0DB4 /* Pods_Simple_chatApp_APIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7C7FCEEA46DC6FAE7F07D7 /* Pods_Simple_chatApp_APIUITests.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		65A3A1CF1FD9224A007FD3AD /* Simple-chatApp-API-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple-chatApp-API-Bridging-Header.h"; sourceTree = "<group>"; };
 		65A3A1D01FD9224B007FD3AD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		65A3A1D11FD9224C007FD3AD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		65B9190B1FDDC6E1001288C8 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		780CB0239606C04CC84C111B /* Pods-Simple-chatApp-APIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple-chatApp-APIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple-chatApp-APIUITests/Pods-Simple-chatApp-APIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7F7C7FCEEA46DC6FAE7F07D7 /* Pods_Simple_chatApp_APIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_chatApp_APIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D10549EC59384578A8B7FB /* Pods-Simple-chatApp-API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple-chatApp-API.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple-chatApp-API/Pods-Simple-chatApp-API.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				65235ED61FDD236000C17A1A /* GradientView.swift */,
+				65B9190B1FDDC6E1001288C8 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65235ED31FDBFB2900C17A1A /* ChatVC.swift in Sources */,
+				65B9190C1FDDC6E1001288C8 /* RoundedButton.swift in Sources */,
 				65A3A1A11FD92027007FD3AD /* AppDelegate.swift in Sources */,
 				651073BA1FDD4022004C8566 /* CreateAccountVC.swift in Sources */,
 				651073BD1FDDB37D004C8566 /* AuthService.swift in Sources */,
