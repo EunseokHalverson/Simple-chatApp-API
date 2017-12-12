@@ -533,8 +533,8 @@
                                     <constraint firstAttribute="width" constant="160" id="f6I-28-G6r"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="dark"/>
+                                    <segment title="light"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentControlChanged:" destination="NQT-LP-X8p" eventType="valueChanged" id="mo0-8d-esz"/>

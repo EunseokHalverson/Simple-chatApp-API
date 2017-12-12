@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Simple-chatApp-API/View/AvatarCell.swift"
-            timestampString = "534766319.349073"
+            timestampString = "534768966.313633"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "AvatarCell"
             landmarkType = "3">
          </BreakpointContent>
