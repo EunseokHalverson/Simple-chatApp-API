@@ -10,6 +10,8 @@
 		1DC656364ECA09A3DACD0387 /* Pods_Simple_chatApp_APITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDFA07123B64A53CF78F236 /* Pods_Simple_chatApp_APITests.framework */; };
 		651073BA1FDD4022004C8566 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651073B91FDD4022004C8566 /* CreateAccountVC.swift */; };
 		651073BD1FDDB37D004C8566 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651073BC1FDDB37D004C8566 /* AuthService.swift */; };
+		651700E71FDFDECB00C326D2 /* AvatarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651700E61FDFDECB00C326D2 /* AvatarVC.swift */; };
+		651700E91FDFE0AE00C326D2 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651700E81FDFE0AE00C326D2 /* AvatarCell.swift */; };
 		65235ED31FDBFB2900C17A1A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED21FDBFB2900C17A1A /* ChatVC.swift */; };
 		65235ED51FDBFB3700C17A1A /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED41FDBFB3700C17A1A /* ChannelVC.swift */; };
 		65235ED71FDD236000C17A1A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235ED61FDD236000C17A1A /* GradientView.swift */; };
@@ -23,6 +25,7 @@
 		65A3A1C11FD92027007FD3AD /* Simple_chatApp_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3A1C01FD92027007FD3AD /* Simple_chatApp_APIUITests.swift */; };
 		65A3A1D21FD9224C007FD3AD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3A1D01FD9224B007FD3AD /* SWRevealViewController.m */; };
 		65B9190C1FDDC6E1001288C8 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9190B1FDDC6E1001288C8 /* RoundedButton.swift */; };
+		65B9190E1FDE6C01001288C8 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9190D1FDE6C01001288C8 /* UserDataService.swift */; };
 		7F04F99F726FE8CB296A778E /* Pods_Simple_chatApp_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCB407FF1E0C8B0C3B207E6 /* Pods_Simple_chatApp_API.framework */; };
 		B4604A5061038856DB3B0DB4 /* Pods_Simple_chatApp_APIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7C7FCEEA46DC6FAE7F07D7 /* Pods_Simple_chatApp_APIUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +52,8 @@
 		1CCB407FF1E0C8B0C3B207E6 /* Pods_Simple_chatApp_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_chatApp_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		651073B91FDD4022004C8566 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		651073BC1FDDB37D004C8566 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		651700E61FDFDECB00C326D2 /* AvatarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarVC.swift; sourceTree = "<group>"; };
+		651700E81FDFE0AE00C326D2 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		65235ED21FDBFB2900C17A1A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		65235ED41FDBFB3700C17A1A /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		65235ED61FDD236000C17A1A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -70,6 +75,7 @@
 		65A3A1D01FD9224B007FD3AD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		65A3A1D11FD9224C007FD3AD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		65B9190B1FDDC6E1001288C8 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		65B9190D1FDE6C01001288C8 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		780CB0239606C04CC84C111B /* Pods-Simple-chatApp-APIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple-chatApp-APIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple-chatApp-APIUITests/Pods-Simple-chatApp-APIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7F7C7FCEEA46DC6FAE7F07D7 /* Pods_Simple_chatApp_APIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_chatApp_APIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D10549EC59384578A8B7FB /* Pods-Simple-chatApp-API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple-chatApp-API.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple-chatApp-API/Pods-Simple-chatApp-API.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				651073BC1FDDB37D004C8566 /* AuthService.swift */,
+				65B9190D1FDE6C01001288C8 /* UserDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -145,6 +152,7 @@
 				65235ED41FDBFB3700C17A1A /* ChannelVC.swift */,
 				65235EDF1FDD351F00C17A1A /* LoginVC.swift */,
 				651073B91FDD4022004C8566 /* CreateAccountVC.swift */,
+				651700E61FDFDECB00C326D2 /* AvatarVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 			children = (
 				65235ED61FDD236000C17A1A /* GradientView.swift */,
 				65B9190B1FDDC6E1001288C8 /* RoundedButton.swift */,
+				651700E81FDFE0AE00C326D2 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -524,12 +533,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				65235ED31FDBFB2900C17A1A /* ChatVC.swift in Sources */,
+				651700E71FDFDECB00C326D2 /* AvatarVC.swift in Sources */,
 				65B9190C1FDDC6E1001288C8 /* RoundedButton.swift in Sources */,
 				65A3A1A11FD92027007FD3AD /* AppDelegate.swift in Sources */,
+				65B9190E1FDE6C01001288C8 /* UserDataService.swift in Sources */,
 				651073BA1FDD4022004C8566 /* CreateAccountVC.swift in Sources */,
 				651073BD1FDDB37D004C8566 /* AuthService.swift in Sources */,
 				65235EE01FDD351F00C17A1A /* LoginVC.swift in Sources */,
 				65235ED71FDD236000C17A1A /* GradientView.swift in Sources */,
+				651700E91FDFE0AE00C326D2 /* AvatarCell.swift in Sources */,
 				65A3A1D21FD9224C007FD3AD /* SWRevealViewController.m in Sources */,
 				65235ED51FDBFB3700C17A1A /* ChannelVC.swift in Sources */,
 				65235EDC1FDD32C200C17A1A /* Constant.swift in Sources */,
